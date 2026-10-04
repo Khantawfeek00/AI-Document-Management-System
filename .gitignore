@@ -1,0 +1,120 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.idea/
+*.iml
+*.iws
+.vscode/
+*.code-workspace
+.project
+.classpath
+.cproject
+.settings/
+.springBeans
+
+# ==========================================
+# Logs and Databases
+# ==========================================
+logs/
+*.log
+*.sqlite
+*.db
+
+# ==========================================
+# Java / Spring Boot (Maven)
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.apt_generated
+.apt_generated_tests
+.factorypath
+
+# ==========================================
+# React / Node.js (FilePortalFrontend)
+# ==========================================
+FilePortalFrontend/node_modules/
+FilePortalFrontend/dist/
+FilePortalFrontend/build/
+FilePortalFrontend/coverage/
+FilePortalFrontend/.npm/
+FilePortalFrontend/.eslintcache
+FilePortalFrontend/.stylelintcache
+FilePortalFrontend/.pnp.*
+FilePortalFrontend/.yarn/*
+!FilePortalFrontend/.yarn/patches
+!FilePortalFrontend/.yarn/plugins
+!FilePortalFrontend/.yarn/releases
+!FilePortalFrontend/.yarn/sdks
+!FilePortalFrontend/.yarn/versions
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+FilePortalFrontend/.env
+FilePortalFrontend/.env.local
+FilePortalFrontend/.env.development.local
+FilePortalFrontend/.env.test.local
+FilePortalFrontend/.env.production.local
+
+# ==========================================
+# Python (Scripts / Virtual Environments)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Docker / Infrastructure
+# ==========================================
+# If you have local volume mounts for databases or MinIO, ignore them
+# Example:
+# docker-data/
+# postgres-data/
+# minio-data/
